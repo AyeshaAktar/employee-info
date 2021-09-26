@@ -4,6 +4,7 @@ import "./EmployeeCard.css";
 const EmployeeCard = (props) => {
   const { name, employeeId, age, workAs, country, salary, img } =
     props.singleEmployee;
+  const handleSelectBtn = props.handleSelectBtn;
   return (
     <div className="col">
       <div className="card shadow">
@@ -36,7 +37,12 @@ const EmployeeCard = (props) => {
             <strong>Employee Id</strong>
             {employeeId}
           </p>
-          <button className="btn select-btn ">Select</button>
+          <button
+            onClick={() => handleSelectBtn(props.singleEmployee)}
+            className="btn select-btn "
+          >
+            Select
+          </button>
         </div>
       </div>
     </div>
