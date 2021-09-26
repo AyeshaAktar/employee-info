@@ -1,5 +1,7 @@
 import React from "react";
 import "./EmployeeCard.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 const EmployeeCard = (props) => {
   const { name, employeeId, age, workAs, country, salary, img } =
@@ -41,6 +43,7 @@ const EmployeeCard = (props) => {
             onClick={() => handleSelectBtn(props.singleEmployee)}
             className="btn select-btn "
           >
+            <FontAwesomeIcon icon={faUserPlus} />
             Select
           </button>
         </div>

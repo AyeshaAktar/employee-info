@@ -14,7 +14,6 @@ const Employees = () => {
     setSelectEmployee(totalEmployee);
   };
 
-  let count = 0;
   return (
     <div className="employees mt-5 container-fluid">
       <div className="row">

@@ -15,7 +15,7 @@ const SelectionCart = (props) => {
       <h4>Total Salary: {totalSalary}</h4>
 
       {selectEmployee.length > 0 ? (
-        <table class="table">
+        <table className="table">
           <thead>
             <tr>
               <th scope="col">Id</th>
@@ -25,7 +25,7 @@ const SelectionCart = (props) => {
           </thead>
           <tbody>
             {selectEmployee.map((employee) => (
-              <tr>
+              <tr key={employee.id}>
                 <th scope="row">{count++}</th>
                 <td>{employee.name}</td>
                 <td>{employee.salary}</td>
