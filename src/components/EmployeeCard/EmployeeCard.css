@@ -1,0 +1,9 @@
+.employee-img {
+  height: 250px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.select-btn {
+  background-color: crimson;
+  color: white;
+}
