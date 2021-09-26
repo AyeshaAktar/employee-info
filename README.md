@@ -1,5 +1,3 @@
-# Project name: Employee Details
+# Project name: Employees
 
-# Project live link:
-
-- Project Details:
+- Project Details: In this project we have full stack developer more than others developer. We have also a team manager for this project.

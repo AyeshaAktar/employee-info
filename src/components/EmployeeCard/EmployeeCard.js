@@ -41,7 +41,7 @@ const EmployeeCard = (props) => {
           </p>
           <button
             onClick={() => handleSelectBtn(props.singleEmployee)}
-            className="btn select-btn "
+            className="btn select-btn px-4"
           >
             <FontAwesomeIcon icon={faUserPlus} />
             Select
